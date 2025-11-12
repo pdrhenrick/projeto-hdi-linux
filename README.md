@@ -49,3 +49,23 @@ Módulo 4: Kubernetes (Minikube)
     5. Criei um Service para expor o app: kubectl expose deployment meu-site-hdi --type=NodePort --port=80.
 
     6. Acesse o app na minha máquina local via minikube service meu-site-hdi --url.
+
+
+
+Módulo 5: Automação com Ansible (Conceitual)
+
+  Objetivo: Entender o próximo passo da automação (além do Shell Script).
+  Conceito: A vaga pede conhecimento em **Ansible AAP**. Meu conhecimento em Ansible é conceitual: entendo que ele usa **Playbooks** (em formato YAML) para garantir o "estado desejado" de múltiplos servidores ao mesmo tempo.
+  Minha Ponte: Meu ponto forte é a lógica de automação. Eu já faço isso há anos com Shell Script (Projeto 2) e PowerShell. Para mim, aprender a *sintaxe* (YAML) do Ansible é a parte mais fácil, pois a mentalidade de automação eu já tenho.
+
+Módulo 6: Ferramentas de CI/CD (Conceitual)
+
+  Objetivo: Entender como a infraestrutura dá suporte ao desenvolvimento.
+  Conceito: A vaga pede experiência em ferramentas de **CI/CD** (como Jenkins, GitLab CI). Meu conhecimento aqui é conceitual.
+  Minha Ponte:** Eu entendo o que é o pipeline:
+    
+    1.  **CI (Continuous Integration):** A prática de automatizar o "build" (construção) e o "teste" do código toda vez que um desenvolvedor faz um *commit*. O objetivo é achar *bugs* o mais rápido possível.
+
+    2.  **CD (Continuous Deployment):** O próximo passo. Depois que o código passa nos testes do CI, o pipeline automaticamente "deploya" (envia) a nova versão para o ambiente (ex: para o **Kubernetes**).
+
+  Meu Papel: Entendo que meu papel na infraestrutura é dar suporte a essa esteira, garantindo que o **Kubernetes** esteja saudável para receber os *deploys* e que os *scripts* de automação (como Ansible) funcionem corretamente.
